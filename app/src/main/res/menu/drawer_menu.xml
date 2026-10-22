@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="OVERVIEW">
+            <menu>
+                <item
+                    android:id="@+id/nav_dashboard"
+                    android:icon="@drawable/ic_dashboard"
+                    android:title="Dashboard" />
+            </menu>
+        </item>
+
+        <item android:title="FUEL OPERATIONS">
+            <menu>
+                <item
+                    android:id="@+id/nav_fuel_inventory"
+                    android:icon="@drawable/ic_fuel"
+                    android:title="Fuel Inventory" />
+                <item
+                    android:id="@+id/nav_tank_management"
+                    android:icon="@drawable/ic_tank"
+                    android:title="Tank Management" />
+                <item
+                    android:id="@+id/nav_pump_nozzle"
+                    android:icon="@drawable/ic_pump"
+                    android:title="Pump &amp; Nozzle" />
+            </menu>
+        </item>
+
+        <item android:title="OPERATIONS">
+            <menu>
+                <item
+                    android:id="@+id/nav_shift_reconciliation"
+                    android:icon="@drawable/ic_shift"
+                    android:title="Shift Reconciliation" />
+                <item
+                    android:id="@+id/nav_employee_management"
+                    android:icon="@drawable/ic_people"
+                    android:title="Employee Management" />
+                <item
+                    android:id="@+id/nav_attendance"
+                    android:icon="@drawable/ic_attendance"
+                    android:title="Attendance" />
+            </menu>
+        </item>
+
+        <item android:title="COMMERCIAL">
+            <menu>
+                <item
+                    android:id="@+id/nav_crm"
+                    android:icon="@drawable/ic_supplier"
+                    android:title="CRM" />
+                <item
+                    android:id="@+id/nav_supplier_management"
+                    android:icon="@drawable/ic_supplier"
+                    android:title="Supplier Management" />
+                <item
+                    android:id="@+id/nav_purchase_management"
+                    android:icon="@drawable/ic_purchase"
+                    android:title="Purchase Management" />
+                <item
+                    android:id="@+id/nav_expense_management"
+                    android:icon="@drawable/ic_expense"
+                    android:title="Expense Management" />
+            </menu>
+        </item>
+
+        <item android:title="REPORTING">
+            <menu>
+                <item
+                    android:id="@+id/nav_reports"
+                    android:icon="@drawable/ic_chart"
+                    android:title="Reports &amp; Analytics" />
+                <item
+                    android:id="@+id/nav_audit_logs"
+                    android:icon="@drawable/ic_log"
+                    android:title="Audit Logs" />
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings"
+                    android:title="Settings" />
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fuel Master AI</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to Fuel Master AI ERP</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="no_account">Don\'t have an account? Create account</string>
+    <string name="signup_title">Create Account</string>
+    <string name="signup_subtitle">Register for Fuel Master AI</string>
+    <string name="fullname_hint">Full Name</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="role_label">Select Role:</string>
+    <string name="role_admin">Admin</string>
+    <string name="role_manager">Station Manager</string>
+    <string name="role_employee">Employee</string>
+    <string name="signup_button">Register Account</string>
+    <string name="already_account">Already have an account? Login</string>
+    <string name="error_empty_fields">Please fill in all fields</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_invalid_credentials">Invalid username or password</string>
+    <string name="error_username_taken">Username already exists</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

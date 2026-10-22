@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.FuelMasterProject" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorSecondary">@color/accent_orange</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="Theme.FuelMasterProject" parent="Base.Theme.FuelMasterProject" />
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/navy"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvNavInitials"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_avatar_circle"
+        android:gravity="center"
+        android:text="RD"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvNavHeaderUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rai Dawood"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNavHeaderRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:layout_marginTop="2dp" />
+
+</LinearLayout>
